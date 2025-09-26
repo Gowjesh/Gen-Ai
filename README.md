@@ -1,23 +1,23 @@
-# 🧠 Anime Concept Text-to-Text Generator
+# Anime Concept Text-to-Text Generator
 
 This project generates **anime-style concepts** using large language models. You give a basic idea (like "cyberpunk samurai"), and the model returns a rich anime-style story hook or character description.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 📝 Text-to-Text concept generation
-- 🎨 Tailored for anime, manga, and light novel ideas
-- 🔍 Built with Transformers-based foundation models
-- ⚙️ Easily extendable for text-to-image or longer story generation
+-  Text-to-Text concept generation
+-  Tailored for anime, manga, and light novel ideas
+-  Built with Transformers-based foundation models
+-  Easily extendable for text-to-image or longer story generation
 
 ---
 
-## 🤖 Model Explanation
+## Model Explanation
 
 We use a **large language model (LLM)** from Hugging Face’s Transformers library.
 
-### ✅ Model Used: `tiiuae/falcon-7b-instruct` *(or fallback: `gpt2`)*
+### Model Used: `tiiuae/falcon-7b-instruct` *(or fallback: `gpt2`)*
 
 - **Type:** Decoder-only transformer (text generation)
 - **Trained on:** Diverse large-scale text corpora (web content, conversations, stories, etc.)
